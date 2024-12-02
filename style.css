@@ -1,0 +1,104 @@
+.bar{
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    border: 7px solid black;
+    border-radius: 60px;
+}
+.button{
+        position: absolute;
+        transition: 0.5s;
+        width: 130px;
+        height: 125px;
+        border: 3px solid black;
+        border-radius: 75px;
+   left: 0px;
+        background-color: black;
+        cursor: pointer;
+    }
+    .moveright{
+        position: absolute;
+        transition: 0.5s;
+        border: 3px solid white;
+        border-radius: 65px;
+        left: 237px;
+        background-color: rgb(144, 3, 121);
+    }
+    .black{
+        transition: 0.5s;
+        background-color: black;
+        color: white;
+    }
+    .gowhite{
+        border: 7px solid rgb(144, 3, 121);
+        border-radius: 60px;
+        background-color: rgb(59, 4, 59);
+    }
+    .moon{
+        position: absolute; 
+ top: 45px; 
+ left: 83px; 
+ transform: translate(-55%, -55%); 
+ height: 80px; 
+ width: 80px; 
+ box-shadow: -15px 15px 0 5px rgb(251, 255, 1)  ; 
+ border-radius: 50%; 
+    }
+    .moonhide{
+        position: absolute; 
+ top: 45px; 
+ left: 83px; 
+ transform: translate(-50%, -50%); 
+ height: 80px; 
+ width: 80px; 
+ box-shadow: -15px 15px 0 5px rgb(255, 255, 255)  ; 
+ border-radius: 50%; 
+    }
+   
+    .info{
+        position: absolute;
+        top: 35%;
+        left: 38%;
+        font-size: 65px;
+    }
+    .change{
+        color: white;
+    }
+    .sun{
+        position: absolute;
+        transition: 0.5s;
+        top: 262px;
+        bottom: 0px;
+        left: 950px;
+        width: 100px;
+        height: 100px;
+        border-radius: 49px;
+        background-color: yellow;
+    }
+    .sungo{
+       transition: 0.5s;
+       top: -120px;
+    }
+    .m{
+        position: absolute;
+        transition: 0.5s; 
+        top: -120px;
+        bottom: 0px;
+        left: 1010px;
+ transform: translate(-55%, -55%); 
+ height: 80px; 
+ width: 80px; 
+ box-shadow: -15px 15px 0 5px rgb(90, 88, 88)  ; 
+ border-radius: 50%; 
+    }
+    .get{
+        position: absolute;
+        transition: 0.5s; 
+ top: 290px; 
+ left: 1010px; 
+ transform: translate(-50%, -50%); 
+ height: 80px; 
+ width: 80px; 
+ box-shadow: -15px 15px 0 5px rgb(255, 255, 255)  ; 
+ border-radius: 50%; 
+    }
